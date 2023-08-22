@@ -41,8 +41,6 @@ Both algorithms are well-suited for tackling classification tasks, including cre
 
 
 ## Results
-[Describe the results you've achieved, including metrics like accuracy, precision, recall, F1-score, etc.]
-[You can include visuals like ROC curves, confusion matrices, or other relevant plots.]
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
