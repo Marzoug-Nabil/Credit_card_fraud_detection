@@ -1,6 +1,7 @@
 # Credit Card Fraud Detection Using Machine Learning
 
-![Credit Card Fraud Detection](images/credit_card_fraud_detection.jpg)
+<img src="images/The-framework-of-credit-card-fraud-detection.png" width="1000" height="300">
+
 
 This repository contains code and resources for a machine learning project focused on credit card fraud detection. The project utilizes various machine learning algorithms to identify fraudulent credit card transactions.
 
@@ -18,10 +19,10 @@ This repository contains code and resources for a machine learning project focus
 Credit card fraud is a significant concern in the financial industry. This project aims to address this issue using machine learning techniques to automatically detect fraudulent transactions. By employing a range of algorithms, the project aims to achieve high accuracy and low false positive rates.
 
 ## Dataset
-The dataset used for this project is [provide dataset source and link]. It contains historical credit card transaction data, including features like transaction amount, time, and anonymized features. It's important to note that the dataset is unbalanced, with a small percentage of fraudulent transactions.
+The dataset used for this project is [Credit card fraud detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). It contains historical credit card transaction data, including features like transaction amount, time, and anonymized features. It's important to note that the dataset is unbalanced, with a small percentage of fraudulent transactions.
 
 ## Installation
-- Clone this repository: `git clone https://github.com/your-username/credit-card-fraud-detection.git`
+- Clone this repository: `git clone https://github.com/Marzoug-Nabil/credit-card-fraud-detection.git`
 - Install required dependencies: `pip install -r requirements.txt`
 
 ## Usage
@@ -30,7 +31,14 @@ The dataset used for this project is [provide dataset source and link]. It conta
 3. Follow the instructions within the notebook to explore the data, preprocess it, train models, and evaluate their performance.
 
 ## Algorithms Used
-- [List the machine learning algorithms you've used for this project, e.g., Random Forest, Logistic Regression, etc.]
+This project employs two powerful gradient boosting algorithms for classification:
+
+1. **CatBoost Classifier**: CatBoost is a gradient boosting library that handles categorical features naturally without requiring extensive preprocessing. It's known for its excellent out-of-the-box performance and efficient training.
+
+2. **LightGBM**: LightGBM is another gradient boosting framework that uses a histogram-based approach for training. It's optimized for efficiency and is often used for large datasets.
+
+Both algorithms are well-suited for tackling classification tasks, including credit card fraud detection. By leveraging their strengths, this project aims to achieve accurate and efficient fraud detection.
+
 
 ## Results
 [Describe the results you've achieved, including metrics like accuracy, precision, recall, F1-score, etc.]
@@ -45,11 +53,10 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Create a pull request.
 
 ## License
-[Specify the license under which your project is released, e.g., MIT License.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 Feel free to reach out if you have any questions or suggestions. Happy detecting!
 
-Author: Your Name
-Contact: your.email@example.com
+Author: Marzoug Nabil<br>Contact: nabilmarzoug7@gmail.com
