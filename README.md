@@ -62,7 +62,7 @@ After training both the CatBoost and LightGBM models, here are the evaluation re
 Confusion Matrix for CatBoost:
 <!-- Include a formatted confusion matrix image or text representation here -->
 
-![Confusion Matrix CatBoost](confusion_matrix_catboost.png) <!-- Replace with your actual CatBoost confusion matrix image if available -->
+![Confusion Matrix CatBoost](catboost_confusion_matrix.png) <!-- Replace with your actual CatBoost confusion matrix image if available -->
 
 ### LightGBM Model Results:
 - **Accuracy:** 0.9995
@@ -73,7 +73,7 @@ Confusion Matrix for CatBoost:
 Confusion Matrix for LightGBM:
 <!-- Include a formatted confusion matrix image or text representation here -->
 
-![Confusion Matrix LightGBM](confusion_matrix_lightgbm.png)
+![Confusion Matrix LightGBM](lightgbm_confusion_matrix.png)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
