@@ -10,8 +10,8 @@ This repository contains code and resources for a machine learning project focus
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Algorithms Used](#algorithms-used)
-- [Technologies Used](#Technologies Used)
+- [Qlgorithms Used](#algorithms-used)
+- [Technologies Used](#technologies-used)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -44,7 +44,7 @@ Both algorithms are well-suited for tackling classification tasks, including cre
 
 - Python
 - Jupyter Notebook
-- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SOM, PCA, Optuna, Sklearn-genetic, etc.
+- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SOM, PCA, Optuna, Sklearn-genetic,Shap (Shapely additive explanation) ,etc.
 
 
 
