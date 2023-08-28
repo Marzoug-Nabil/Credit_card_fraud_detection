@@ -11,6 +11,7 @@ This repository contains code and resources for a machine learning project focus
 - [Installation](#installation)
 - [Usage](#usage)
 - [Algorithms Used](#algorithms-used)
+- [Technologies Used](#Technologies Used)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -38,6 +39,13 @@ This project employs two powerful gradient boosting algorithms for classificatio
 2. **LightGBM**: LightGBM is another gradient boosting framework that uses a histogram-based approach for training. It's optimized for efficiency and is often used for large datasets.
 
 Both algorithms are well-suited for tackling classification tasks, including credit card fraud detection. By leveraging their strengths, this project aims to achieve accurate and efficient fraud detection.
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SOM, PCA, Optuna, Sklearn-genetic, etc.
+
 
 
 ## Results
