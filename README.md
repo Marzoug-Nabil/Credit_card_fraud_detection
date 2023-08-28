@@ -49,6 +49,21 @@ Both algorithms are well-suited for tackling classification tasks, including cre
 
 
 ## Results
+## Results
+
+After training the CatBoost model, here are the evaluation results on the test dataset:
+
+- **Accuracy:** 0.9995
+- **Precision:** 0.9605
+- **Recall:** 0.7374
+- **F1-Score:** 0.8343
+
+These results indicate that the CatBoost model performs exceptionally well in accurately detecting fraudulent credit card transactions while maintaining a high level of precision. The relatively lower recall suggests that while the model excels in identifying genuine fraud cases, there is still room for improvement in identifying more of the actual fraudulent transactions.
+
+Confusion Matrix:
+
+![Confusion Matrix](confusion_matrix_catboost.png)
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
