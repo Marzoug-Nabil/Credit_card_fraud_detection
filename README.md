@@ -51,19 +51,29 @@ Both algorithms are well-suited for tackling classification tasks, including cre
 ## Results
 ## Results
 
-After training the CatBoost model, here are the evaluation results on the test dataset:
+After training both the CatBoost and LightGBM models, here are the evaluation results on the test dataset:
 
+### CatBoost Model Results:
 - **Accuracy:** 0.9995
 - **Precision:** 0.9605
 - **Recall:** 0.7374
 - **F1-Score:** 0.8343
 
-These results indicate that the CatBoost model performs exceptionally well in accurately detecting fraudulent credit card transactions while maintaining a high level of precision. The relatively lower recall suggests that while the model excels in identifying genuine fraud cases, there is still room for improvement in identifying more of the actual fraudulent transactions.
+Confusion Matrix for CatBoost:
+<!-- Include a formatted confusion matrix image or text representation here -->
 
-Confusion Matrix:
+![Confusion Matrix CatBoost](confusion_matrix_catboost.png) <!-- Replace with your actual CatBoost confusion matrix image if available -->
 
-![Confusion Matrix](confusion_matrix_catboost.png)
+### LightGBM Model Results:
+- **Accuracy:** 0.9995
+- **Precision:** 0.8864
+- **Recall:** 0.7879
+- **F1-Score:** 0.8342
 
+Confusion Matrix for LightGBM:
+<!-- Include a formatted confusion matrix image or text representation here -->
+
+![Confusion Matrix LightGBM](confusion_matrix_lightgbm.png)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
