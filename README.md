@@ -49,7 +49,6 @@ Both algorithms are well-suited for tackling classification tasks, including cre
 
 
 ## Results
-## Results
 
 
 After training both the CatBoost and LightGBM models, here are the evaluation results on the test dataset:
