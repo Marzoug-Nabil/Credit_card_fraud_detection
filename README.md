@@ -76,6 +76,18 @@ Confusion Matrices for Both Models:
 
 Both models have demonstrated impressive accuracy in identifying fraudulent credit card transactions. The CatBoost model excels in precision, while the LightGBM model showcases a balanced performance between precision and recall.
 
+### SHAP Plots for Model Interpretation:
+
+Interpreting how your models make decisions is essential. Below are SHAP summary plots for both models, showcasing the features' impact on predictions:
+
+#### CatBoost SHAP Summary Plot:
+<!-- Include your CatBoost SHAP summary plot here -->
+![CatBoost SHAP Summary Plot](catboost_shap_plot.png)
+
+#### LightGBM SHAP Summary Plot:
+<!-- Include your LightGBM SHAP summary plot here -->
+![LightGBM SHAP Summary Plot](lightgbm_shap_plot.png)
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
