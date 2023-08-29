@@ -81,13 +81,10 @@ Both models have demonstrated impressive accuracy in identifying fraudulent cred
 Interpreting how your models make decisions is essential. Below are SHAP summary plots for both models, showcasing the features' impact on predictions:
 
 #### CatBoost SHAP Summary Plot:
-<!-- Include your CatBoost SHAP summary plot here -->
-![CatBoost SHAP Summary Plot](catboost_shap_plot.png)
-
 #### LightGBM SHAP Summary Plot:
 <!-- Include your LightGBM SHAP summary plot here -->
-![LightGBM SHAP Summary Plot](lightgbm_shap_plot.png)
-
+<img src="images/summary_plot_lightgbm.png" alt="CatBoost SHAP Summary Plot" width="400"/>
+A summary plot given by lightgbm, join  all Shap plot in the code 
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
